@@ -2,7 +2,12 @@
  * Created by songpeilan on 2017/9/2.
  */
 
-alert("hello world webpack");
+// import  "user2";
+
+
+// import "./css.css";
+import "./user2.js"
+
 class A{
     constructor(){
 

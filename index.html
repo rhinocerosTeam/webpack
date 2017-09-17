@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title><%=htmlWebpackPlugin.options.title %></title>
+    <script type='text/javascript' src='<%=htmlWebpackPlugin.files.chunks.headIndex.entry %>'></script>
 </head>
 <body>
-<div id="AppRoot"></div>
-<script src="dist/index.js"></script>
+
 
 </body>
+<script type='text/javascript' src='<%=htmlWebpackPlugin.files.chunks.bodyIndex.entry %>'></script>
 </html>
